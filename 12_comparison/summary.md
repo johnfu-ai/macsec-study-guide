@@ -46,10 +46,10 @@ graph TB
 ## 与后续章节的关联
 
 - **标准收官**：[第十三章](../13_standards/README.md)回望 2006-2026 的标准演进——四套件、XPN、delay protect 这些本章反复出现的名词，都对应着一份修订案。
-- **姊妹仓库**：IPsec 侧的抓包与解析见 [IPsec_Lab](https://github.com/johnfu-ai/IPsec_Lab)。
+- **姊妹仓库**：IPsec 侧的抓包与解析见 [ipsec-study-guide](https://github.com/johnfu-ai/ipsec-study-guide)。
 
 [第十三章](../13_standards/README.md)将以标准时间线收束全书：802.1AE 与 802.1X 的历次修订分别解决了什么问题，以及按条款索骥的阅读地图。
 
 ---
 
-> 📝 **发现错误或有改进建议？** 欢迎提交 [Issue](https://github.com/johnfu-ai/MACsec_Lab/issues) 或 [PR](https://github.com/johnfu-ai/MACsec_Lab/pulls)。
+> 📝 **发现错误或有改进建议？** 欢迎提交 [Issue](https://github.com/johnfu-ai/macsec-study-guide/issues) 或 [PR](https://github.com/johnfu-ai/macsec-study-guide/pulls)。

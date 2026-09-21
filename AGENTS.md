@@ -4,7 +4,7 @@ Guidance for agents and humans working in this repository.
 
 ## What this is
 
-An educational IEEE 802.1AE + 802.1X MKA lab in the same family as `IPsec_Lab` and `IEEE_802.1X_Lab`. Published title: **MACsec 学习指南**. It ships **Wireshark-ready PCAPs**, a Python implementation of GCM-AES-128 / MKA, and field-level Markdown dumps.
+An educational IEEE 802.1AE + 802.1X MKA lab in the same family as `ipsec-study-guide` and `ieee-802.1x-study-guide`. Published title: **MACsec 学习指南**. It ships **Wireshark-ready PCAPs**, a Python implementation of GCM-AES-128 / MKA, and field-level Markdown dumps.
 
 The WSL2 kernel used when the lab was written has `# CONFIG_MACSEC is not set`. Do not add a Docker/`ip macsec` "real SecY" path unless you have verified `modinfo macsec` works on the target kernel.
 
@@ -40,7 +40,7 @@ The repo is a GitBook (yeasy-style): `SUMMARY.md` at the root is the single sour
 6. Demo keys in `keys.py` / `captures/keys.json` stay demo keys. Do not "strengthen" them into looking like production secrets.
 7. IEEE Randall vectors in `tests/test_protocol.py` are the crypto oracle. If a change breaks them, the change is wrong.
 8. Mermaid / flowchart **message labels** are English: the `A->>B: ...` arrow text and `Note` lines. Surrounding Markdown prose may stay Chinese.
-9. PSK CAK and EAP-derived CAK are different stories. MKPDU parameter sets (Basic / Peer List / Distributed SAK / SAK Use) are the same protocol; do not fold them into one pcap. The EAP path starts at **EAP-Success**, derives CAK/CKN from MSK (`IEEE8021 EAP CAK` / `IEEE8021 EAP CKN`, 16-byte labels), and the Authenticator is Key Server. Full EAP-TLS lives in `IEEE_802.1X_Lab`.
+9. PSK CAK and EAP-derived CAK are different stories. MKPDU parameter sets (Basic / Peer List / Distributed SAK / SAK Use) are the same protocol; do not fold them into one pcap. The EAP path starts at **EAP-Success**, derives CAK/CKN from MSK (`IEEE8021 EAP CAK` / `IEEE8021 EAP CKN`, 16-byte labels), and the Authenticator is Key Server. Full EAP-TLS lives in `ieee-802.1x-study-guide`.
 
 ## Layout
 
@@ -53,7 +53,7 @@ The repo is a GitBook (yeasy-style): `SUMMARY.md` at the root is the single sour
 - `04_mka/` — identifiers, KS election, peer states, per-parameter-set field tables
 - `06_lifecycle/` — rekey story (AN/KN rotation, PN exhaustion, SAK retire); capture `mka-rekey.pcap` needs `LabKeys.sak2`
 - `07_cipher_suites/` — 128/256/XPN suites; capture `mka-xpn.pcap` needs `LabKeys.sak4` (MKA version 3, non-zero KS SSCI bytes)
-- `09_attacks/` / `14_appendix/` — attack analysis, 36 FAQ, 80+ terms, lab spec, report index
+- `09_attacks/` / `14_appendix/` — attack analysis, 36 FAQ, 80+ terms, lab spec, report index, annotated Chinese translation of the netdev 1.1 paper (appendix E, images in `14_appendix/images/`)
 - `12_comparison/` — four-protocol comparison (IPsec/TLS/WireGuard)
 - `captures/` — committed pcaps (+ `decoded/` reports, book Appendix D)
 

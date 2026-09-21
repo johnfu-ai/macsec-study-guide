@@ -15,3 +15,6 @@ examples/c/secy_frame
 # GitBook (Honkit) build artifacts
 node_modules/
 _book/
+
+# AI collaboration log (local only, never commit)
+ai-log.md

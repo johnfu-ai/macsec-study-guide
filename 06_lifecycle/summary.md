@@ -46,4 +46,4 @@ graph TB
 [第七章](../07_cipher_suites/README.md)将深入密码套件本身：GCM-AES-128/256 的格式差异、套件协商，以及 XPN 如何用 64-bit PN 与重构的 nonce 把"换钥时钟"推后。
 
 ---
-> 📝 **发现错误或有改进建议？** 欢迎提交 [Issue](https://github.com/johnfu-ai/MACsec_Lab/issues) 或 [PR](https://github.com/johnfu-ai/MACsec_Lab/pulls)。
+> 📝 **发现错误或有改进建议？** 欢迎提交 [Issue](https://github.com/johnfu-ai/macsec-study-guide/issues) 或 [PR](https://github.com/johnfu-ai/macsec-study-guide/pulls)。

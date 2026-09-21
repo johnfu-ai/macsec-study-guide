@@ -9,7 +9,7 @@
 - **12.3 MACsec vs TLS 与 WireGuard**：连接粒度 vs 链路粒度，组密钥 vs 静态公钥
 - **12.4 怎么选：叠加使用**：按需求选首选项，按信任边界分层叠加
 
-通过本章的学习，读者将能够为给定的网络与威胁模型选出合适的加密协议（组合），并说清每一层的保护范围与代价。IPsec 部分对照姊妹仓库 [IPsec_Lab](https://github.com/johnfu-ai/IPsec_Lab)。
+通过本章的学习，读者将能够为给定的网络与威胁模型选出合适的加密协议（组合），并说清每一层的保护范围与代价。IPsec 部分对照姊妹仓库 [ipsec-study-guide](https://github.com/johnfu-ai/ipsec-study-guide)。
 
 ```mermaid
 graph TB

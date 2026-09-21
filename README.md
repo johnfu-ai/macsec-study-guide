@@ -4,8 +4,8 @@
 
 <p>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
-<a href="https://github.com/johnfu-ai/MACsec_Lab"><img src="https://img.shields.io/github/stars/johnfu-ai/MACsec_Lab?style=social" alt="GitHub stars"></a>
-<a href="https://johnfu-ai.github.io/MACsec_Lab/"><img src="https://img.shields.io/badge/在线阅读-GitHub_Pages-brightgreen" alt="Online Reading"></a>
+<a href="https://github.com/johnfu-ai/macsec-study-guide"><img src="https://img.shields.io/github/stars/johnfu-ai/macsec-study-guide?style=social" alt="GitHub stars"></a>
+<a href="https://johnfu-ai.github.io/macsec-study-guide/"><img src="https://img.shields.io/badge/在线阅读-GitHub_Pages-brightgreen" alt="Online Reading"></a>
 <a href="tests/test_protocol.py"><img src="https://img.shields.io/badge/tests-35%20items-blue" alt="Tests"></a>
 <a href="captures/"><img src="https://img.shields.io/badge/captures-15%20pcaps-orange" alt="Captures"></a>
 </p>
@@ -137,8 +137,8 @@ graph LR
 
 | 书名 | 与本书的关系 |
 |------|------------|
-| [IPsec_Lab](https://github.com/johnfu-ai/IPsec_Lab) | 网络层加密的姊妹实验室，与第 12 章对比互为参照 |
-| [IEEE_802.1X_Lab](https://github.com/johnfu-ai/IEEE_802.1X_Lab) | EAPOL/EAP-TLS 受控端口实验，本书 EAP 路线的前篇 |
+| [ipsec-study-guide](https://github.com/johnfu-ai/ipsec-study-guide) | 网络层加密的姊妹实验室，与第 12 章对比互为参照 |
+| [ieee-802.1x-study-guide](https://github.com/johnfu-ai/ieee-802.1x-study-guide) | EAPOL/EAP-TLS 受控端口实验，本书 EAP 路线的前篇 |
 
 ---
 
@@ -146,7 +146,7 @@ graph LR
 
 ### 在线阅读
 
-👉 **推荐**：[在线阅读（GitHub Pages）](https://johnfu-ai.github.io/MACsec_Lab/)
+👉 **推荐**：[在线阅读（GitHub Pages）](https://johnfu-ai.github.io/macsec-study-guide/)
 
 ### 本地阅读（Honkit）
 
@@ -177,8 +177,8 @@ sudo make lab     # 可选：netns + veth 线上重放实验
 
 欢迎贡献！您可以通过以下方式参与：
 
-- 🐛 [提交 Issue](https://github.com/johnfu-ai/MACsec_Lab/issues) — 报告错误或提出建议
-- 📝 [提交 PR](https://github.com/johnfu-ai/MACsec_Lab/pulls) — 改进内容或修复 typo
+- 🐛 [提交 Issue](https://github.com/johnfu-ai/macsec-study-guide/issues) — 报告错误或提出建议
+- 📝 [提交 PR](https://github.com/johnfu-ai/macsec-study-guide/pulls) — 改进内容或修复 typo
 - ⭐ Star 本项目 — 帮助更多人发现这本书
 
 ---

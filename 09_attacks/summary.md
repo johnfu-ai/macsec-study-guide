@@ -52,4 +52,4 @@ graph TB
 [第十章](../10_lab/README.md)将把全书的理论拉回键盘上：跑测试、开抓包、配 Wireshark、上 netns，亲手复现前面每一章看到的报文。
 
 ---
-> 📝 **发现错误或有改进建议？** 欢迎提交 [Issue](https://github.com/johnfu-ai/MACsec_Lab/issues) 或 [PR](https://github.com/johnfu-ai/MACsec_Lab/pulls)。
+> 📝 **发现错误或有改进建议？** 欢迎提交 [Issue](https://github.com/johnfu-ai/macsec-study-guide/issues) 或 [PR](https://github.com/johnfu-ai/macsec-study-guide/pulls)。

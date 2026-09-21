@@ -114,6 +114,7 @@
   * [附录 B：FAQ 三十六问](14_appendix/B_faq.md)
   * [附录 C：实验室规格](14_appendix/C_spec.md)
   * [附录 D：抓包字段级报告（make generate 生成）](14_appendix/D_reports.md)
+  * [附录 E：netdev 1.1 论文全译——Linux 内核 MACsec 的起点](14_appendix/E_netdev_paper.md)
     * [D.01 MKA 握手（PSK）](captures/decoded/01-mka-handshake.md)
     * [D.02 MACsec 加密模式](captures/decoded/02-macsec-encrypted.md)
     * [D.03 MACsec 仅完整性模式](captures/decoded/03-macsec-integrity-only.md)

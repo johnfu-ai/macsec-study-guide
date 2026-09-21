@@ -40,5 +40,5 @@ To let Wireshark verify MKA ICV and unwrap the SAK: **Preferences → Protocols 
 WSL2 + Windows Wireshark:
 
 ```
-\\wsl$\<distro>\home\<you>\MACsec_Lab\captures\session-full.pcap
+\\wsl$\<distro>\home\<you>\macsec-study-guide\captures\session-full.pcap
 ```
